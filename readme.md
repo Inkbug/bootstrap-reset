@@ -2,6 +2,8 @@
 
 Bootstrap-reset is a lite (22[KiB](https://en.wikipedia.org/wiki/Kibibyte)) version of [Bootstrap](http://twitter.github.com/bootstrap), to be used as a reset, to replace browsers' ugly default stylesheet.
 
+Current Bootstrap version: 2.2.2
+
 ## Copyright and license
 ### Bootstrap-reset license:
 Copyright 2013 Inkbug.
