@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Bootstrap-reset Example Form</title>
+		<link rel="stylesheet" href="../bootstrap-reset.css" />
+	</head>
+	<body>
+		<h1>Example Form</h1>
+		<form>
+			<fieldset>
+				<legend>Contact Details</legend>
+				<label for="contactName">Your Name</label>
+				<input type="text" required id="contactName" placeholder="Name">
+				<label for="contactEmail">Your Email</label>
+				<input type="email" required id="contactEmail" placeholder="you@email.provider">
+			</fieldset>
+			<fieldset>
+				<legend>Message</legend>
+				<label for="contactSubject">Subject</label>
+				<input type="text" id="contactSubject" placeholder="Subject">
+				<select id="contactType">
+					<option>Type of Message</option>
+					<option>Support</option>
+					<option>Contribute</option>
+					<option>Question</option>
+				</select>
+				<label for="inputMessage">Message</label>
+				<textarea id="inputMessage" required placeholder="Your Message goes here..." rows=4></textarea>
+			</fieldset>
+			<fieldset>
+				<button type="submit">Send</button>
+			</fieldset>
+		</form>
+	</body>
+</html>

@@ -154,7 +154,6 @@ textarea {
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
-  .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
@@ -196,6 +195,11 @@ body {
   line-height: 20px;
   color: #333333;
   background-color: #ffffff;
+}
+
+body {
+	width: 1170px;
+	margin: 0 auto;
 }
 
 a {
@@ -1041,4 +1045,30 @@ input[type="submit"]::-moz-focus-inner {
   background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+
+
+/* Responsive */
+@-ms-viewport {
+  width: device-width;
+}
+
+@media (min-width: 1200px) {
+  body {
+    width: 1170px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  body {
+    width: 724px;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    padding-right: 20px;
+    padding-left: 20px;
+    width: auto;
+  }
 }
